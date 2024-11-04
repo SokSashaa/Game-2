@@ -1,0 +1,25 @@
+{
+   "name": "EasyCanvas",
+   "version": "1.0.0",
+   "description": "Library for easy working with HTML5 canvas",
+   "scripts": {
+      "build": "gulp",
+      "type": "tsc --noEmit"
+   },
+   "author": "Zelnski R.V.",
+   "license": "MIT",
+   "dependencies": {
+      "gulp-clean": "^0.4.0",
+      "gulp-less": "^5.0.0",
+      "gulp-webpack": "^1.5.0",
+      "systemjs": "^6.11.0",
+      "typescript": "^4.5.2"
+   },
+   "devDependencies": {
+      "browserify": "^17.0.0",
+      "gulp": "^4.0.2",
+      "gulp-typescript": "^6.0.0-alpha.1",
+      "tsify": "^5.0.4",
+      "vinyl-source-stream": "^2.0.0"
+   }
+}
